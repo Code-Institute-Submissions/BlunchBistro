@@ -12,7 +12,7 @@ body{
 h2{
     font-family: Cinzel@700;
     letter-spacing: 4px;
-    color: #808080;
+    color: #ffffff;
 
 }
 
@@ -20,7 +20,7 @@ h2{
 /*.............................................bootstrap*/
 .navbar-brand{
     float: left;
-font-size: 2.5rem;
+
 letter-spacing: 4px;
 color: #ffffff;
 }
@@ -40,4 +40,11 @@ color: #ffffff;
 }
 .navbar.navbar-nav.nav-item.active{
     color:#ce6d0b;
+}
+a{
+    color: #545454;
+}
+a:hover{
+    color:#ce6d0b;
+    text-decoration: none;
 }
