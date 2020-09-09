@@ -38,7 +38,7 @@ color: #ffffff;
 .nav-link:hover{
     color:#ce6d0b;
 }
-.navbar.navbar-nav.nav-item.active{
+.nav-item.active{
     color:#ce6d0b;
 }
 a{
@@ -47,4 +47,25 @@ a{
 a:hover{
     color:#ce6d0b;
     text-decoration: none;
+}
+.jumbotron{
+    text-align: center;
+    background: none;
+    color: #ffffff;
+    
+}
+
+.jumbo-container{
+    height: 100vh;
+    background: url("../images/Cotlete de berbecuț cu garnitură de orez.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
