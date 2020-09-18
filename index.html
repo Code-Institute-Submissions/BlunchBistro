@@ -15,92 +15,114 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>BlunchBistro|The best Bistro in Town</title>
   </head>
-  <body>  
-    <header>
-      <!-----------------Navbar and logo-------------------->
-      <nav
-        class="navbar sticky-top navbar-expand-lg"
-        style="background-color: #545454;"
-      >
-        <a class="navbar-brand" href="index.html">Blunch Bistro</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-label="Toggle navigation">
-    <span class="" role="button" ><i class="fa fa-bars" aria-hidden="true" style="color:#e6e6ff"></i></span>
-  </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenu"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Menu
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
-                <a class="dropdown-item" href="#">Starters</a>
-                <a class="dropdown-item" href="#">Main Dish</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Side Dish</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownRestaurant"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Restaurant
-              </a>
-              <div
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownRestaurant"
-              >
-                <a class="dropdown-item" href="#">Book Now</a>
-                <a class="dropdown-item" href="#">About Us</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Galery</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Take Away</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    
-<div class="container-fluid jumbo-container">
-      <div class="jumbotron">
-  <h1 class="display-4">The best dishes</h1>
-  <p class="lead">
- made with the freshest ingredients!</p>
-  <hr class="my-4">
-  <p>We'll take you to a trip into the past ..... or the future!</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="#" role="button">Book Now</a>
-  </p>
-</div>
-</div>
-    </header>
+  <body>
+    <!-----------------Navbar and logo-------------------->
 
-    <!--................main feature................-->
+    <nav class="navbar fixed-top navbar-dark navbar-expand-sm">
+      <a class="navbar-brand" href="index.html"><h2>Blunch Bistro</h2></a>
+      <button
+        class="navbar-toggler ml-auto"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownMenu"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Menu
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenu">
+              <a class="dropdown-item" href="#">Starters</a>
+              <a class="dropdown-item" href="#">Main Dish</a>
+              <a class="dropdown-item" href="#">Side Dish</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdownRestaurant"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Restaurant
+            </a>
+            <div
+              class="dropdown-menu"
+              aria-labelledby="navbarDropdownRestaurant"
+            >
+              <a class="dropdown-item" href="#">Book Now</a>
+              <a class="dropdown-item" href="#">About Us</a>
+              <a class="dropdown-item" href="#">Galery</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Take Away</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--------------main image jumbo----->
+    <div class="container-fluid jumbo-container">
+      <div class="opaque-overlay">&nbsp;</div>
+      <div class="row">
+        <div class="col-12">
+          <div class="jumbotron text-center">
+            <h1 class="jumbo-header">The best dishes</h1>
+            <p class="lead">
+              made with the freshest ingredients!
+            </p>
+            <!--<hr class="block-divider block-divider--jumbo" />-->
+            <p>
+              <a
+                href="https://www.google.com/maps/place/Blunch+Bistro/@44.4445267,26.1180655,15z/data=!4m5!3m4!1s0x0:0xea9f6a76fdf189f9!8m2!3d44.4445267!4d26.1180655"
+                target="_blank"
+                >181 Mihai Eminescu St, Bucharest 030167</a
+              >
+            </p>
+
+            <button
+              class="btn btn--book btn--orng btn-lg"
+              data-toggle="modal"
+              data-target="#bookNowModal"
+            >
+              Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!----................main feature................-->
     <div class="container">
       <!--Callout-->
       <section class="callout">
         <h1 class="text-center">The best Bistro in town</h1>
-        <p class="lead text-center">Come in today to try our fresh food concept</p>
+        <p class="lead text-center">
+          Come in today to try our fresh food concept
+        </p>
       </section>
       <!--recomended menu-->
       <section class="recomendedMenu">
@@ -114,7 +136,9 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <p class="card-text text-center"><a href="#">Late morning</a></p>
+                <p class="card-text text-center">
+                  <a href="#">Late morning</a>
+                </p>
               </div>
             </div>
           </div>
@@ -127,7 +151,9 @@
                 alt="Card image cap"
               />
               <div class="card-body">
-                <p class="card-text text-center"><a href="#"> Early night</a></p>
+                <p class="card-text text-center">
+                  <a href="#"> Early night</a>
+                </p>
               </div>
             </div>
           </div>
@@ -146,7 +172,7 @@
           </div>
         </div>
       </section>
-      <!--    Short menu -->
+      <!--  Short menu -->
       <section class="shortMenu">
         <h2 class="text-uppercase text-center">Features:</h2>
         <div class="miniMenu">
