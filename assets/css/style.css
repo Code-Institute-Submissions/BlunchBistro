@@ -8,7 +8,9 @@ body{
     font-family: Cinzel;
     
 }
-
+h5{
+    color:#3f3e3e;
+}
 a{
     color:#ffffff;
 }
@@ -18,7 +20,21 @@ a:hover{
     text-decoration: none;
 
 }
-/*.............................................bootstrap*/
+.card-text a {
+    color:#3f3e3e;
+}
+.card-text a:hover{
+    font-weight: bold;    
+    color:#3f3e3e;
+    text-decoration: none;
+
+}
+.recomendedMenu a{
+    color:#3f3e3e;
+}
+/*.................................bootstrap*/
+
+
 /*Navbar*/
 
 .navbar {
@@ -65,14 +81,52 @@ a:hover{
     color:#ce6d0b;
     text-decoration: none;
 }
+
+
+/*.....Jumbo images .....*/
 .jumbotron{
     text-align: center;
     background: transparent;
     color: #ffffff;
     
 }
-.jumbo-header{
+.night-container{ height: 100vh;
+    background: url("../images/caracatita-vin-site-370x247.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
     
+}
+.morning-container{ height: 100vh;
+    background: url("../images/Salata-exotica-site-370x247.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.blunch-container{ height: 100vh;
+    background: url("../images/bbq.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
 }
 .jumbo-container{
     height: 100vh;
@@ -81,11 +135,9 @@ a:hover{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
 .opaque-overlay{
@@ -98,7 +150,10 @@ a:hover{
 
 }
 
-
+.recomendedMenu{
+    margin: 10;
+}
+}
 .block-divider--jumbo{
     width: 35px;
     height: 5px;
@@ -110,15 +165,31 @@ a:hover{
     font-size:1.5rem ;
     width: 150px;
     border-radius: 23px;
+    text-decoration: none;
+    
 }
 
 .btn--orng{
     color: #ffffff;
     background-color: transparent;
-    border-color: #ce6d0b;
+    border-color:transparent;
+   
 }
+.btn--modal{
+    color: #ffffff;
+    background-color: #ce6d0b;
+    border-color:#ce6d0b;}
 .btn--orng:hover, .btn--orng:active, .btn--orng:focus, .btn--orng:active:focus{
     background-color: #ce6d0b;
     border-color: #ce6d0b;
     color: #ffffff;
 }
+.btn--modal:hover, .btn--modal:active, .btn--modal:focus, .btn--modal:active:focus{
+     color: #ffffff;
+     background-color: #b35e0a;
+}
+
+div #map {
+    min-height: 360px;
+    width: 100%;
+    }
