@@ -8,9 +8,11 @@ body{
     font-family: Cinzel;
     
 }
+h2, h4{text-align: center;}
 h5{
     color:#3f3e3e;
 }
+p {text-align: center;}
 a{
     color:#ffffff;
 }
@@ -90,6 +92,18 @@ a:hover{
     color: #ffffff;
     
 }
+.morning-container{ height: 100vh;
+    background: url("../images/Salata-exotica-site-370x247.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
 .night-container{ height: 100vh;
     background: url("../images/caracatita-vin-site-370x247.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -103,19 +117,8 @@ a:hover{
 
 }
     
-}
-.morning-container{ height: 100vh;
-    background: url("../images/Salata-exotica-site-370x247.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
 
-}
+
 .blunch-container{ height: 100vh;
     background: url("../images/bbq.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -193,3 +196,39 @@ div #map {
     min-height: 360px;
     width: 100%;
     }
+
+/*......footer..........*/
+
+.footer{
+  background: rgba(0,0,0,0.75);
+  color:white;
+}
+   
+.links ul {list-style-type: none;
+text-align: center;
+    
+    }
+     
+  .links  li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        font-weight: bold;
+        }
+        
+    }
+  }  }
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      
+    }
+  } 
+  .location{ 
+    i{font-size: 18px;}
+    
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
