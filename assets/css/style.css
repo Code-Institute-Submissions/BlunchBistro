@@ -1,292 +1,235 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-body{
-    font-family: Cinzel;
-    
-}
-h2, h4{text-align: center;}
-h5{
-    color:#3f3e3e;
-}
-p {text-align: center;}
-a{
-    color:#ffffff;
-}
-a:hover{
-    font-weight: bold;    
-    color:#ffffff;
-    text-decoration: none;
 
+
+* {
+margin : 0;
+padding : 0;
+border : 0;
+}
+body {
+font-family : Cinzel;
+}
+h2, h4 {
+text-align : center;
+}
+h5 {
+color : #3f3e3e;
+}
+p {
+text-align : center;
+}
+a {
+color : #ffffff;
+}
+a:hover {
+font-weight : bold;
+color : #ffffff;
+text-decoration : none;
 }
 .card-text a {
-    color:#3f3e3e;
+color : #3f3e3e;
 }
-.card-text a:hover{
-    font-weight: bold;    
-    color:#3f3e3e;
-    text-decoration: none;
-
+.card-text a:hover {
+font-weight : bold;
+color : #3f3e3e;
+text-decoration : none;
 }
-.recomendedMenu a{
-    color:#3f3e3e;
+.recomendedMenu a {
+color : #3f3e3e;
 }
-/*.................................bootstrap*/
-
 
 /*Navbar*/
 
+
 .navbar {
-    margin-bottom: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
-    border:0;
-    position: absolute;
+margin-bottom : 0;
+width : 100%;
+background-color : rgb(0, 0, 0, 0.25);
+border : 0;
+position : absolute;
 }
-
 .navbar .navbar-toggler {
-    border:0;
-
+border : 0;
 }
 .navbar.navbar-brand {
-    float: left;
-    font: size 1.5rem;
-    letter-spacing: 4px;
-    color: #ffffff;
-  
-    
+float : left;
+letter-spacing : 4px;
+color : #ffffff;
 }
-.navbar .navbar-brand:hover{
-    color:#ce6d0b;
+.navbar .navbar-brand:hover {
+color : #ce6d0b;
 }
-
 .navbar .navbar-nav .nav-link {
-    color:#ffffff;
-    font-size: 1rem;
-    letter-spacing: 4px;
-    list-style-type: none;
-
+color : #ffffff;
+font-size : 1rem;
+letter-spacing : 4px;
+list-style-type : none;
 }
 .navbar .navbar-nav .nav-link:hover {
-    color:#ce6d0b;
+color : #ce6d0b;
 }
 .navbar .navbar-nav .nav-item .active {
-    color:#ce6d0b;
+color : #ce6d0b;
 }
-.navbar a{
-    color: #545454;
+.navbar a {
+color : #545454;
 }
-.navbar a:hover{
-    color:#ce6d0b;
-    text-decoration: none;
+.navbar a:hover {
+color : #ce6d0b;
+text-decoration : none;
 }
-
 
 /*.....Jumbo images .....*/
-.jumbotron{
-    text-align: center;
-    background: transparent;
-    color: #ffffff;
-    
-}
-.morning-container{ height: 75vh;
-    background: url("../images/Salata-exotica-site-370x247.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-
-}
-.night-container{ height: 75vh;
-    background: url("../images/caracatita-vin-site-370x247.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-
-}
-    
 
 
-.blunch-container{ height: 75vh;
-    background: url("../images/bbq.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-
+.jumbotron {
+text-align : center;
+background : transparent;
+color : #ffffff;
 }
-.menu-container{ height: 27vh;
-    background: url("../images/Burger 3.JPG") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-
+.morning-container {
+height : 75vh;
+background : url("../images/Salata-exotica-site-370x247.jpg") center center no-repeat fixed;
+background-size : cover;
+display : flex;
+align-items : center;
+justify-content : center;
+position : relative;
 }
-.about-container{ height: 75vh;
-    background: url("../images/about.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-
+.night-container {
+height : 75vh;
+background : url("../images/caracatita-vin-site-370x247.jpg") center center no-repeat fixed;
+background-size : cover;
+display : flex;
+align-items : center;
+justify-content : center;
+position : relative;
 }
-.takeaway-container{ height: 75vh;
-    background: url("../images/takeaway.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-
+.blunch-container {
+height : 75vh;
+background : url("../images/bbq.jpg") center center no-repeat fixed;
+background-size : cover;
+display : flex;
+align-items : center;
+justify-content : center;
+position : relative;
 }
-.jumbo-container{
-    height: 100vh;
-    background: url("../images/Cotlete de berbecuț cu garnitură de orez.JPG") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+.menu-container {
+height : 27vh;
+background : url("../images/Burger 3.JPG") center center no-repeat fixed;
+background-size : cover;
+display : flex;
+align-items : center;
+justify-content : center;
+position : relative;
 }
-.opaque-overlay{
-    position: absolute;
-    top:0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0,0.4);
-
+.about-container {
+height : 75vh;
+background : url("../images/about.jpg") center center no-repeat fixed;
+background-size : cover;
+display : flex;
+align-items : center;
+justify-content : center;
+position : relative;
 }
-
-.recomendedMenu{
-    margin: 10;
+.takeaway-container {
+height : 75vh;
+background : url("../images/takeaway.jpg") center center no-repeat fixed;
+background-size : cover;
+display : flex;
+align-items : center;
+justify-content : center;
+position : relative;
 }
+.jumbo-container {
+height : 100vh;
+background : url("../images/home.jpg") center center no-repeat fixed;
+background-size : cover;
+display : flex;
+align-items : center;
+justify-content : center;
+position : relative;
 }
-.block-divider--jumbo{
-    width: 35px;
-    height: 5px;
-    border:0;
- 
-    background-color:#ce6d0b; 
+.opaque-overlay {
+position : absolute;
+top : 0;
+left : 0;
+height : 100%;
+width : 100%;
+background-color : rgb(0, 0, 0, 0.4);
 }
-.btn--book{
-    font-size:1.5rem ;
-    width: 150px;
-    border-radius: 23px;
-    text-decoration: none;
-    
+.block-divider--jumbo {
+width : 35px;
+height : 5px;
+border : 0;
+background-color : #ce6d0b;
 }
-
-.btn--orng{
-    color: #ffffff;
-    background-color: transparent;
-    border-color:transparent;
-   
+.btn--book {
+font-size : 1.5rem;
+width : 150px;
+border-radius : 23px;
+text-decoration : none;
 }
-.btn--modal{
-    color: #ffffff;
-    background-color: #ce6d0b;
-    border-color:#ce6d0b;}
-.btn--orng:hover, .btn--orng:active, .btn--orng:focus, .btn--orng:active:focus{
-    background-color: #ce6d0b;
-    border-color: #ce6d0b;
-    color: #ffffff;
-}
-.btn--modal:hover, .btn--modal:active, .btn--modal:focus, .btn--modal:active:focus{
-     color: #ffffff;
-     background-color: #b35e0a;
+.btn--orng {
+color : #ffffff;
+background-color : transparent;
+border-color : transparent;
 }
 
+
+/*.......Modal......*/
+.btn--modal {
+color : #ffffff;
+background-color : #ce6d0b;
+border-color : #ce6d0b;
+}
+.btn--orng:hover, .btn--orng:active, .btn--orng:focus, .btn--orng:active:focus {
+background-color : #ce6d0b;
+border-color : #ce6d0b;
+color : #ffffff;
+}
+.btn--modal:hover, .btn--modal:active, .btn--modal:focus, .btn--modal:active:focus {
+color : #ffffff;
+background-color : #b35e0a;
+}
+
+/*....Map......*/
 div #map {
-    min-height: 360px;
-    width: 100%;
-    }
-
+min-height : 360px;
+width : 100%;
+}
 /*....menu......*/
-
 .menu-content {
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #ce6d0b;
+font-weight : 400;
+text-transform : uppercase;
+color : #ce6d0b;
 }
 .menu-content p {
-    text-align: left;
-    display:block;
-    text-transform: none;
-    font-size: 13px;
-    padding: 0 0px 5px;
-    line-height: 12px;
-    font-style:normal;
+text-align : left;
+display : block;
+text-transform : none;
+font-size : 13px;
+padding : 0 0 5px;
+line-height : 12px;
+font-style : normal;
 }
-.menu-content h5{
-    float:right;
-    font-style:normal;
+.menu-content h5 {
+float : right;
+font-style : normal;
 }
-
-
-/*......footer..........*/
-
-.footer{
-  background: rgba(0,0,0,0.75);
-  color:white;
+/*....footer......*/
+.footer {
+background : rgb(0, 0, 0, 0.75);
+color : white;
 }
-   
-.links ul {list-style-type: none;
-text-align: center;
-    
-    }
-     
-  .links  li a{
-      color: white;
-      transition: color .2s;
-      &:hover{
-        text-decoration:none;
-        font-weight: bold;
-        }
-        
-    }
-  }  }
-  .about-company{
-    i{font-size: 25px;}
-    a{
-      color:white;
-      
-    }
-  } 
-  .location{ 
-    i{font-size: 18px;}
-    
-  }
-  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+.links ul {
+list-style-type : none;
+text-align : center;
+}
+.links li a {
+color : white;
+transition : color 0.2s;
+}
+.copyright p {
+border-top : 1px solid rgb(255, 255, 255, 0.1);
 }
