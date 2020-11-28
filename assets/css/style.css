@@ -92,7 +92,7 @@ a:hover{
     color: #ffffff;
     
 }
-.morning-container{ height: 100vh;
+.morning-container{ height: 75vh;
     background: url("../images/Salata-exotica-site-370x247.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -104,7 +104,7 @@ a:hover{
     position: relative;
 
 }
-.night-container{ height: 100vh;
+.night-container{ height: 75vh;
     background: url("../images/caracatita-vin-site-370x247.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -119,8 +119,44 @@ a:hover{
     
 
 
-.blunch-container{ height: 100vh;
+.blunch-container{ height: 75vh;
     background: url("../images/bbq.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.menu-container{ height: 27vh;
+    background: url("../images/Burger 3.JPG") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.about-container{ height: 75vh;
+    background: url("../images/about.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.takeaway-container{ height: 75vh;
+    background: url("../images/takeaway.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -196,6 +232,28 @@ div #map {
     min-height: 360px;
     width: 100%;
     }
+
+/*....menu......*/
+
+.menu-content {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ce6d0b;
+}
+.menu-content p {
+    text-align: left;
+    display:block;
+    text-transform: none;
+    font-size: 13px;
+    padding: 0 0px 5px;
+    line-height: 12px;
+    font-style:normal;
+}
+.menu-content h5{
+    float:right;
+    font-style:normal;
+}
+
 
 /*......footer..........*/
 

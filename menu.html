@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -35,12 +35,12 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link " href="index.html"
-              >Home </a
-            >
+            <a class="nav-link" href="index.html">Home </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="menu.html">Menu<span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="menu.html"
+              >Menu<span class="sr-only">(current)</span></a
+            >
           </li>
 
           <li class="nav-item dropdown">
@@ -76,94 +76,73 @@
       </div>
     </nav>
 
-    <!--------------main image jumbo----->
-    <div class="container-fluid jumbo-container">
+    <!--------------main image jumbo--->
+    <div class="container-fluid menu-container">
       <div class="opaque-overlay">&nbsp;</div>
       <div class="row">
         <div class="col-12">
-          <div class="jumbotron text-center">
-            <h1 class="jumbo-header">The best dishes</h1>
-            <p class="lead">
-              made with the freshest ingredients!
-            </p>
-            <!--<hr class="block-divider block-divider--jumbo" />-->
-            <p>
-              <a
-                href="https://www.google.com/maps/place/Blunch+Bistro/@44.4445267,26.1180655,15z/data=!4m5!3m4!1s0x0:0xea9f6a76fdf189f9!8m2!3d44.4445267!4d26.1180655"
-                target="_blank"
-                >181 Mihai Eminescu St, Bucharest 030167</a
-              >
-            </p>
-            <button
-              class="btn btn--book btn--orng btn-lg"
-              data-toggle="modal"
-              data-target="#bookNowModal"
-            >
-              Book Now
-            </button>
-            <div
-              class="modal fade"
-              id="bookNowModal"
-              tabindex="-1"
-              role="dialog"
-              aria-labelledby="bookNowModalTitle"
-              aria-hidden="true"
-            >
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="bookNowModalTitle">
-                      Book your table now!
-                    </h5>
-                    <button
-                      type="button"
-                      class="close"
-                      data-dismiss="modal"
-                      aria-label="Close"
-                    >
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <form>
-                      <div class="form-group">
-                        <label for="email">Email address</label>
-                        <input
-                          type="email"
-                          class="form-control"
-                          id="email"
-                          placeholder="Email"
-                        />
-                        <label for="booking">Booking Date</label>
+          <div
+            class="modal fade"
+            id="bookNowModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="bookNowModalTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="bookNowModalTitle">
+                    Book your table now!
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="email">Email address</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="Email"
+                      />
+                      <label for="booking">Booking Date</label>
 
-                        <input
-                          type="date"
-                          class="form-control"
-                          id="booking"
-                          placeholder="Booking Date"
-                        />
-                        <label for="time">Select a time:</label>
-                        <input
-                          type="time"
-                          class="form-control"
-                          id="time"
-                          placeholder="Time"
-                        />
-                      </div>
-                      <div class="modal-footer">
-                        <button
-                          type="button"
-                          class="btn btn-secondary"
-                          data-dismiss="modal"
-                        >
-                          Close
-                        </button>
-                        <button type="submit" class="btn btn--modal">
-                          Book Now
-                        </button>
-                      </div>
-                    </form>
-                  </div>
+                      <input
+                        type="date"
+                        class="form-control"
+                        id="booking"
+                        placeholder="Booking Date"
+                      />
+                      <label for="time">Select a time:</label>
+                      <input
+                        type="time"
+                        class="form-control"
+                        id="time"
+                        placeholder="Time"
+                      />
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                      <button type="submit" class="btn btn--modal">
+                        Book Now
+                      </button>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>
@@ -171,45 +150,140 @@
         </div>
       </div>
     </div>
-   <!--footer.......-->
- <div class="mt-2 pt-2 pb-5 footer">
-<div class="container">
-  <div class="row">
-    <div class="col-lg-5 col-xs-12 about-company">
-      <h2>Blunch Bistro</h2>
-      <p class="pr-5 text-white-50">Thank you for comming to our website, we hope to see you soon in the restaurant, visit or call us! </p>
-      <p ><a href="https://www.facebook.com/Blunch-Bistro-2500094363342602/" target="_blank"><i class="fab fa-facebook-f fa-3x mr-1"></i></a><a href="https://www.instagram.com/blunch_bistro/?hl=ro" target="_blank"><i class="fab fa-instagram fa-3x"></i></a></p>
+
+    <!--Menu test-->
+    <div class="mt-5 container menu-content">
+      <div class="row">
+        <div class="col-lg-6 col-xs-12">
+          Croque madame
+          <h5>28 lei</h5>
+          <p>with spinach</p>
+          Scrambled eggs
+          <h5>26 lei</h5>
+          <p>with smolked salmon</p>
+          Omlette
+          <h5>18 lei</h5>
+          <p>with cheese and ham</p>
+          Full english breakfast
+          <h5>30 lei</h5>
+          <p>with hash brown and tomato</p>
+         Mussles
+          <h5>35 lei</h5>
+          <p>in wine or tomato sauce</p>
+          barbeque ribs
+          <h5>35 lei</h5>
+          <p>with coleslaw and french fries</p>
+          Shrimps
+          <h5>40 lei</h5>
+          <p>in sweet and spicy sauce</p>
+          Salmon
+          <h5>45 lei</h5>
+          <p>with pea puree</p>
+          Duck breast
+          <h5>46 lei</h5>
+          <p>on red cabbage</p>
+          Chicken
+          <h5>26 lei</h5>
+          <p>in spicy sauce</p>
+        </div>
+        <div class="col-lg-6 col-xs-12">
+          Penne
+          <h5>34 lei</h5>
+          <p>with smolked salmon and capers</p>
+          Penne
+          <h5>26 lei</h5>
+          <p>arrabiata</p>
+          Seafood spaghetti
+          <h5>34 lei</h5>
+          <p>with tomato sauce</p>
+          Caesar Salad
+          <h5>32 lei</h5>
+          <p>with anchovies and croutons</p>
+          Tuna Salad
+          <h5>30 lei</h5>
+          <p>with corn and lemon</p>
+          Chicken Salad
+          <h5>34 lei</h5>
+          <p>with crispy chicken</p>
+          Beer
+          <h5>15 lei</h5>
+          <p>local beer</p>
+          Digestive
+          <h5>25 lei</h5>
+          <p>100 ml</p>
+          Rose wine
+          <h5>100 lei</h5>
+          <p>750 ml bottle</p>
+          Coffee/ Cappuccino/ Latte
+          <h5>10 lei</h5>
+          <p>or go for a tea</p>
+        </div>
+      </div>
     </div>
-    <div class="col-lg-3 col-xs-12 links">
-    <h4 class="mt-lg-0 mt-sm-3">Fast track</h4>
-        <ul class="m-0 p-0 " >
-          <li>- <a href="morning.html">Late Morning</a></li>
-          <li>- <a href="night.html">Early Night</a></li>
-          <li>- <a href="blunch.html">The Blunch</a></li>
-          <li>- <a href="menu.html">Menu</a></li>
-        </ul>
-       
-    </div>
-    <div class="col-lg-4 col-xs-12 location">
-      <h4 class="mt-lg-0 mt-sm-4">Find us here!</h4>
-      
-               <p > <a
+
+    <!--footer.......-->
+    <div class="mt-2 pt-2 pb-5 footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 col-xs-12 about-company">
+            <h2>Blunch Bistro</h2>
+            <p class="pr-5 text-white-50">
+              Thank you for comming to our website, we hope to see you soon in
+              the restaurant, visit or call us!
+            </p>
+            <p>
+              <a
+                href="https://www.facebook.com/Blunch-Bistro-2500094363342602/"
+                target="_blank"
+                ><i class="fab fa-facebook-f fa-3x mr-1"></i></a
+              ><a
+                href="https://www.instagram.com/blunch_bistro/?hl=ro"
+                target="_blank"
+                ><i class="fab fa-instagram fa-3x"></i
+              ></a>
+            </p>
+          </div>
+          <div class="col-lg-3 col-xs-12 links">
+            <h4 class="mt-lg-0 mt-sm-3">Fast track</h4>
+            <ul class="m-0 p-0">
+              <li>- <a href="morning.html">Late Morning</a></li>
+              <li>- <a href="night.html">Early Night</a></li>
+              <li>- <a href="blunch.html">The Blunch</a></li>
+              <li>- <a href="menu.html">Menu</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-xs-12 location">
+            <h4 class="mt-lg-0 mt-sm-4">Find us here!</h4>
+
+            <p>
+              <a
                 href="https://www.google.com/maps/place/Blunch+Bistro/@44.4445267,26.1180655,15z/data=!4m5!3m4!1s0x0:0xea9f6a76fdf189f9!8m2!3d44.4445267!4d26.1180655"
                 target="_blank"
-                ><i class="fas fa-map-marker-alt fa-2x"></i>181 Mihai Eminescu St, Bucharest</a
-              ></p
+                ><i class="fas fa-map-marker-alt fa-2x"></i>181 Mihai Eminescu
+                St, Bucharest</a
               >
-      <p class="mb-0 "><a  href="tel:+40736898990" ><i class="fas fa-phone fa-lg" ></i> +40736898990</a></p>
-      <p class="mb-0 "><a href = "mailto: info@blunchbistro.ro"><i class="fas fa-at fa-2x"></i>info@blunchbistro.ro</a></p>
+            </p>
+            <p class="mb-0">
+              <a href="tel:+40736898990"
+                ><i class="fas fa-phone fa-lg"></i> +40736898990</a
+              >
+            </p>
+            <p class="mb-0">
+              <a href="mailto: info@blunchbistro.ro"
+                ><i class="fas fa-at fa-2x"></i>info@blunchbistro.ro</a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col copyright">
+            <p class="">
+              <small class="text-white-50">© 2020. All Rights Reserved.</small>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="row mt-5">
-    <div class="col copyright">
-      <p class=""><small class="text-white-50">© 2020. All Rights Reserved.</small></p>
-    </div>
-  </div>
-</div>
-</div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
