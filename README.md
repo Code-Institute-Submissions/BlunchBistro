@@ -18,14 +18,15 @@ to be able to see the menu and to order from it.
 This dashboard was designed to show information about the restaurant and the menu.
 
 We try to bring more clients into the restaurant and also to increase the revenue 
-through online order, delivery and takeaway.
+through online order, delivery and takeaway. It's easy and convenient to call, book a table,
+send an email and find the location through the navigation app.
 
 -----------------------------------------------------------
 
 ## Wire Frames
 
 
-I have included a few  images into this project that contain the wire frames. I
+I have included a few  images into this project that contain the wire frames [Here](assets/images/wireframe/image0.jpeg). I
 attempted to stick to the design I made at first but made a few redesigns because i liked how it looked 
 
 
@@ -34,7 +35,7 @@ attempted to stick to the design I made at first but made a few redesigns becaus
 ## Preview
 
 
-The following link sends you to the preview of this website:
+The following link sends you to the preview of this website: [BlunchBistro](https://mihai-busuioc.github.io/BlunchBistro/)
 
 
 -----------------------------------------------------------
@@ -86,10 +87,10 @@ a repository on Git-Hub then enter open the workplace on chrome through the gitp
 - First i clicked on the project i wanted to have deployed.
 - Then i selected settings and scrolled down to the GitHub Pages section in options.
 - Here we must first select the source (the branch to be deployed).
-- After selecting the source i selected a theme to be used.
-- Next was to choose a domain. This however is not requierd for a course project.
+- After selecting the source i saved it without choosing a theme.
 
-The website address is:
+
+The website address is: https://mihai-busuioc.github.io/BlunchBistro/
 
 -----------------------------------------------------------
 
