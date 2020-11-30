@@ -111,22 +111,20 @@ on the screen resolution i was trying to effect.
 ## Contributions:
 
 
-I found help as usual by searching the slack , stackoverflow.com, codeinstitute
-
-
+I found help as usual by searching the slack , stackoverflow.com, codeinstitute.net and 
 
 #### -Dev Simplified
 
 
 I watched their tutorial on the javascript and the cart is working as should because of that.
 
-
+-----------------------------------------------------------
 
 ## Foot note
 
 
 Iwould like to make known that all content in this dashboard is for learning purposes
  and will not be used for commercial use. I would also like to mention that due to some
-  personal circumstances i wasn't able to do the commits more often and explicit i should, 
-  i would do it in the next project.
+  personal circumstances i wasn't able to do the commits more often and explicit as I should, 
+  I would do it in the next project.
   Thank you

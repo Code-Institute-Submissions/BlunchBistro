@@ -98,6 +98,7 @@ function updateCartTotal() {
         total = total + (price * quantity) ;
     }
     document.getElementsByClassName('total-price')[0].innerText = total + 'lei'  ;
+    document.getElementsByClassName('badge-warning')[0].innerText = total + 'lei' ;
 }
 
         const citymap = {

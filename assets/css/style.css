@@ -84,7 +84,7 @@ color : #ce6d0b;
 text-decoration : none;
 }
 /*.....Cart .....*/
-@media (min-width: 780px) {
+@media (min-width: 810px) {
     .moving-cart {
     position: absolute;
     text-align: center;
@@ -93,8 +93,8 @@ text-decoration : none;
 }
 
 .moving-cart {
-  font-size: 24px ;
-  margin-right: 10px;
+  font-size: 16px ;
+  margin-right: 0px;
   color: #ffffff;
 }
 .moving-cart:hover{
