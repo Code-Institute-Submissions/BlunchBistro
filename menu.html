@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/sandstone/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <script src="assets/js/index.js"></script>
-    <title>BlunchBistro|The best Bistro in Town</title>
-  </head>
-  <body>
-    <!--.................Navbar and logo.................-->
 
-    <nav class="navbar fixed-top navbar-dark navbar-expand-sm">
-      <a class="navbar-brand" href="index.html"><h2>Blunch Bistro</h2></a>
-      <button
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.5.0/sandstone/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<script async src="assets/js/index.js"></script>
+	<title>BlunchBistro|The best Bistro in Town</title>
+</head>
+
+<body>
+	<!--.................Navbar and logo.................-->
+
+	<nav class="navbar fixed-top navbar-dark navbar-expand-sm">
+		<a class="navbar-brand" href="index.html">
+			<h2>Blunch Bistro</h2>
+		</a>
+		<a href="#"  data-toggle="modal" data-target="#cartModal" class="ml-auto"><i class="fa fa-shopping-cart moving-cart" aria-hidden="true"></i></a>
+		<button
         class="navbar-toggler ml-auto"
         type="button"
         data-toggle="collapse"
@@ -32,70 +31,48 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="menu.html"
-              >Menu<span class="sr-only">(current)</span></a
-            >
-          </li>
 
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdownRestaurant"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Restaurant
-            </a>
-            <div
-              class="dropdown-menu"
-              aria-labelledby="navbarDropdownRestaurant"
-            >
-              <a
-                class="dropdown-item"
-                href="#"
-                data-toggle="modal"
-                data-target="#bookNowModal"
-                >Book Now</a
-              >
-              <a class="dropdown-item" href="about.html">About Us</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="takeaway.html">TakeAway</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home </a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="menu.html">Menu<span class="sr-only">(current)</span></a>
+				</li>
 
-    <!--...................main image jumbo.................-->
-    <div class="container-fluid menu-container">
-      <div class="opaque-overlay">&nbsp;</div>
-      <div class="row">
-        <div class="col-12">
-          <div
-            class="modal fade"
-            id="bookNowModal"
-            tabindex="-1"
-            role="dialog"
-            aria-labelledby="bookNowModalTitle"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="bookNowModalTitle">
-                    Book your table now!
-                  </h5>
-                  <button
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownRestaurant" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Restaurant
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownRestaurant">
+						<a class="dropdown-item" href="#" data-toggle="modal" data-target="#bookNowModal">Book Now</a>
+						<a class="dropdown-item" href="about.html">About Us</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="takeaway.html">TakeAway</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!--...................main image jumbo.................-->
+	<div class="container-fluid menu-container">
+		<div class="opaque-overlay">&nbsp;</div>
+		<div class="row">
+			<div class="col-12">
+				<!--.................Book Modal...............-->
+				<div class="modal fade" id="bookNowModal" tabindex="-1" role="dialog"
+					aria-labelledby="bookNowModalTitle" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="bookNowModalTitle">
+									Book your table now!
+								</h5>
+								<button
                     type="button"
                     class="close"
                     data-dismiss="modal"
@@ -103,195 +80,325 @@
                   >
                     <span aria-hidden="true">&times;</span>
                   </button>
-                </div>
-                <div class="modal-body">
-                  <form>
-                    <div class="form-group">
-                      <label for="email">Email address</label>
-                      <input
+							</div>
+							<div class="modal-body">
+								<form>
+									<div class="form-group">
+										<label for="email">Email address</label>
+										<input
                         type="email"
                         class="form-control"
                         id="email"
                         placeholder="Email"
                       />
-                      <label for="booking">Booking Date</label>
+										<label for="booking">Booking Date</label>
 
-                      <input
-                        type="date"
-                        class="form-control"
-                        id="booking"
-                      />
-                      <label for="time">Select a time:</label>
-                      <input
-                        type="time"
-                        class="form-control"
-                        id="time"
-                      />
+										<input type="date" class="form-control" id="booking" />
+										<label for="time">Select a time:</label>
+										<input type="time" class="form-control" id="time" />
                     </div>
-                    <div class="modal-footer">
-                      <button
+										<div class="modal-footer">
+											<button
                         type="button"
                         class="btn btn-secondary"
                         data-dismiss="modal"
                       >
                         Close
                       </button>
-                      <button type="submit" class="btn btn--modal">
+											<button type="submit" class="btn btn--modal">
                         Book Now
                       </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+										</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Cart modal-->
+	<div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="cartModalLabel">Your order</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<div class="modal-body">
+					<div class="container content-section">
+						<h2 class="section-header">Cart</h2>
+						<div class="cart-row">
+							<span class="cart-item cart-header cart-column">ITEM</span>
+							<span class="item-price cart-header cart-column">PRICE</span>
+							<span class="cart-qty cart-header cart-column">QUANTITY</span>
+						</div>
+						<div class="cart-items"></div>
+						<div class="cart-total">
+							<strong class="cart-total-title">Total</strong>
+							<span class="total-price">0 lei</span>
+						</div>
+						<button class="btn btn-success btn-purchase" type="button">
+                order
+              </button>
+					</div>
+				</div>
 
-    <!--...............Menu ..................-->
-    <div class="mt-5 container menu-content">
-      <div class="row">
-        <div class="col-lg-6 col-xs-12">
-          Croque madame
-          <h5>28 lei</h5>
-          <p>with spinach</p>
-          Scrambled eggs
-          <h5>26 lei</h5>
-          <p>with smolked salmon</p>
-          Omlette
-          <h5>18 lei</h5>
-          <p>with cheese and ham</p>
-          Full english breakfast
-          <h5>30 lei</h5>
-          <p>with hash brown and tomato</p>
-         Mussles
-          <h5>35 lei</h5>
-          <p>in wine or tomato sauce</p>
-          barbeque ribs
-          <h5>35 lei</h5>
-          <p>with coleslaw and french fries</p>
-          Shrimps
-          <h5>40 lei</h5>
-          <p>in sweet and spicy sauce</p>
-          Salmon
-          <h5>45 lei</h5>
-          <p>with pea puree</p>
-          Duck breast
-          <h5>46 lei</h5>
-          <p>on red cabbage</p>
-          Chicken
-          <h5>26 lei</h5>
-          <p>in spicy sauce</p>
-        </div>
-        <div class="col-lg-6 col-xs-12">
-          Penne
-          <h5>34 lei</h5>
-          <p>with smolked salmon and capers</p>
-          Penne
-          <h5>26 lei</h5>
-          <p>arrabiata</p>
-          Seafood spaghetti
-          <h5>34 lei</h5>
-          <p>with tomato sauce</p>
-          Caesar Salad
-          <h5>32 lei</h5>
-          <p>with anchovies and croutons</p>
-          Tuna Salad
-          <h5>30 lei</h5>
-          <p>with corn and lemon</p>
-          Chicken Salad
-          <h5>34 lei</h5>
-          <p>with crispy chicken</p>
-          Beer
-          <h5>15 lei</h5>
-          <p>local beer</p>
-          Digestive
-          <h5>25 lei</h5>
-          <p>100 ml</p>
-          Rose wine
-          <h5>100 lei</h5>
-          <p>750 ml bottle</p>
-          Coffee/ Cappuccino/ Latte
-          <h5>10 lei</h5>
-          <p>or go for a tea</p>
-        </div>
-      </div>
-    </div>
+			</div>
+		</div>
+	</div>
+	<!--...............Menu ..................-->
+	<div class="mt-5 container menu-content">
+		<div class="row">
+			<div class="col-lg-6 col-xs-12">
+				<div class="items">
+					<span class="item-name"> Croque madame</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>28
+						lei
+					</h5>
+					<p>with spinach</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Scrambled eggs</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>26
+						lei
+					</h5>
+					<p>with smolked salmon</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Omlette</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>18
+						lei
+					</h5>
+					<p>with cheese and ham</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Full english breakfast</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>30
+						lei
+					</h5>
+					<p>with hash brown and tomato</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Mussles</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>35
+						lei
+					</h5>
+					<p>in wine or tomato sauce</p>
+				</div>
+				<div class="items">
+					<span class="item-name"> barbeque ribs</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>35
+						lei
+					</h5>
+					<p>with coleslaw and french fries</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Shrimps</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>40
+						lei
+					</h5>
+					<p>in sweet and spicy sauce</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Salmon</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>45
+						lei
+					</h5>
+					<p>with pea puree</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Duck breast</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>46
+						lei
+					</h5>
+					<p>on red cabbage</p>
+				</div>
+				<div class="items">
+					<span class="item-name"> Chicken</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>26
+						lei
+					</h5>
+					<p>in spicy sauce</p>
+				</div>
+			</div>
+			<div class="col-lg-6 col-xs-12">
+				<div class="items">
+					<span class="item-name">Penne</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>34
+						lei
+					</h5>
+					<p>with smolked salmon and capers</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Penne</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>26
+						lei
+					</h5>
+					<p>arrabiata</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Seafood spaghetti</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>34
+						lei
+					</h5>
+					<p>with tomato sauce</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Caesar Salad</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>32
+						lei
+					</h5>
+					<p>with anchovies and croutons</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Tuna Salad</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>30
+						lei
+					</h5>
+					<p>with corn and lemon</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Chicken Salad</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>34
+						lei
+					</h5>
+					<p>with crispy chicken</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Beer</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>15
+						lei
+					</h5>
+					<p>local beer</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Digestive</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>25
+						lei
+					</h5>
+					<p>100 ml</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Rose wine</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>99
+						lei
+					</h5>
+					<p>750 ml bottle</p>
+				</div>
+				<div class="items">
+					<span class="item-name">Coffee / Latte</span>
+					<h5 class="item-price">
+						<button type="button" class="btn btn-link">ADD to cart</button>10
+						lei
+					</h5>
 
-    <!--footer.......-->
-    <div class="mt-2 pt-2 pb-5 footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 col-xs-12 about-company">
-            <h2>Blunch Bistro</h2>
-            <p class="pr-5 text-white-50">
-              Thank you for comming to our website, we hope to see you soon in
-              the restaurant, visit or call us!
-            </p>
-            <p>
-              <a
-                href="https://www.facebook.com/Blunch-Bistro-2500094363342602/"
-                target="_blank"
-                ><i class="fab fa-facebook-f fa-3x mr-1"></i></a
-              ><a
-                href="https://www.instagram.com/blunch_bistro/?hl=ro"
-                target="_blank"
-                ><i class="fab fa-instagram fa-3x"></i
-              ></a>
-            </p>
-          </div>
-          <div class="col-lg-3 col-xs-12 links">
-            <h4 class="mt-lg-0 mt-sm-3">Fast track</h4>
-            <ul class="m-0 p-0">
-              <li>- <a href="morning.html">Late Morning</a></li>
-              <li>- <a href="night.html">Early Night</a></li>
-              <li>- <a href="blunch.html">The Blunch</a></li>
-              <li>- <a href="menu.html">Menu</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4 col-xs-12 location">
-            <h4 class="mt-lg-0 mt-sm-4">Find us here!</h4>
+					<p>or go for a tea</p>
+				</div>
+			</div>
+		</div>
+		<!--Store-->
+	<!--	<div class="container">
+			<div class="row">
+				<div class="col-lg-6 offset-lg-3">
+					<div class="container content-section">
+						<h2 class="section-header">Cart</h2>
+						<div class="cart-row">
+							<span class="cart-item cart-header cart-column">ITEM</span>
+							<span class="item-price cart-header cart-column">PRICE</span>
+							<span class="cart-qty cart-header cart-column">QUANTITY</span>
+						</div>
+						<div class="cart-items"></div>
+						<div class="cart-total">
+							<strong class="cart-total-title">Total</strong>
+							<span class="total-price">0 lei</span>
+						</div>
+						<button class="btn btn-success btn-purchase" type="button">
+                order
+              </button>
+					</div>
+				</div>
+			</div>
+		</div> -->
+	</div>
+	<!--footer.......-->
+	<div class="mt-2 pt-2 pb-5 footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-xs-12 about-company">
+					<h2>Blunch Bistro</h2>
+					<p class="pr-5 text-white-50">
+						Thank you for comming to our website, we hope to see you soon in
+						the restaurant, visit or call us!
+					</p>
+					<p>
+						<a href="https://www.facebook.com/Blunch-Bistro-2500094363342602/"
+							target="_blank"><i class="fab fa-facebook-f fa-3x mr-1"></i></a><a
+							href="https://www.instagram.com/blunch_bistro/?hl=ro"
+							target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+					</p>
+				</div>
+				<div class="col-lg-3 col-xs-12 links">
+					<h4 class="mt-lg-0 mt-sm-3">Fast track</h4>
+					<ul class="m-0 p-0">
+						<li>- <a href="morning.html">Late Morning</a></li>
+						<li>- <a href="night.html">Early Night</a></li>
+						<li>- <a href="blunch.html">The Blunch</a></li>
+						<li>- <a href="menu.html">Menu</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-xs-12 location">
+					<h4 class="mt-lg-0 mt-sm-4">Find us here!</h4>
 
-            <p>
-              <a
-                href="https://www.google.com/maps/place/Blunch+Bistro/@44.4445267,26.1180655,15z/data=!4m5!3m4!1s0x0:0xea9f6a76fdf189f9!8m2!3d44.4445267!4d26.1180655"
-                target="_blank"
-                ><i class="fas fa-map-marker-alt fa-2x"></i>181 Mihai Eminescu
-                St, Bucharest</a
-              >
-            </p>
-            <p class="mb-0">
-              <a href="tel:+40736898990"
-                ><i class="fas fa-phone fa-lg"></i> +40736898990</a
-              >
-            </p>
-            <p class="mb-0">
-              <a href="mailto:info@blunchbistro.ro"
-                ><i class="fas fa-at fa-2x"></i>info@blunchbistro.ro</a
-              >
-            </p>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <div class="col copyright">
-            <p class="">
-              <small class="text-white-50">© 2020. All Rights Reserved.</small>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+					<p>
+						<a href="https://www.google.com/maps/place/Blunch+Bistro/@44.4445267,26.1180655,15z/data=!4m5!3m4!1s0x0:0xea9f6a76fdf189f9!8m2!3d44.4445267!4d26.1180655"
+							target="_blank"><i class="fas fa-map-marker-alt fa-2x"></i>181 Mihai Eminescu
+							St, Bucharest</a>
+					</p>
+					<p class="mb-0">
+						<a href="tel:+40736898990"><i class="fas fa-phone fa-lg"></i> +40736898990</a>
+					</p>
+					<p class="mb-0">
+						<a href="mailto:info@blunchbistro.ro"><i class="fas fa-at fa-2x"></i>info@blunchbistro.ro</a>
+					</p>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col copyright">
+					<p class="">
+						<small class="text-white-50"
+                  >© 2020. All Rights Reserved.</small>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
 
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script
-      async
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYmdfSi6YDaanP0sgDtttn76izs1KDEow&callback=initMap"
-    ></script>
-  </body>
 </html>
