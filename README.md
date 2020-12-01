@@ -26,8 +26,9 @@ send an email and find the location through the navigation app.
 ## Wire Frames
 
 
-I have included a few  images into this project that contain the wire frames [Here](assets/images/wireframe/image0.jpeg). I
-attempted to stick to the design I made at first but made a few redesigns because i liked how it looked 
+I have included a few  images into this project that contain the wire frames [Here](assets/images/wireframe/image0.jpeg). 
+[More](assets/images/wireframe/image2.jpeg), [More](assets/images/wireframe)
+I attempted to stick to the design I made at first but made a few redesigns because i liked how it looked 
 
 
 -----------------------------------------------------------
