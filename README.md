@@ -100,9 +100,12 @@ The website address is: https://mihai-busuioc.github.io/BlunchBistro/
 ## Testing:
 
 
-After finishing the coding i conducted some tests on the dashboard through my mobile, tablet and 
-desktop I also  tested the functionality via the chrome developer tools . The cart works as expected, it allows the user to add 
+After finishing the coding i conducted tests on the dashboard through my mobile iphone 10x and samsung s10 , tablet(ipad pro) and 
+desktop (Chrome, Safari and Edge) I also  tested the functionality via the chrome developer tools . The cart works as expected, it allows the user to add 
 products, modify quantity delete them and order.
+
+The code was tested and validated without errors on W3C for the HTML , the CSS passed through Jigsaw without issues
+ and the JS passed through jshint.com linter without major issues. 
 
 
 Most of my testing was done during development, i would do some coding then check how it would effect the dashboard

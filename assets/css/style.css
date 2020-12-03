@@ -44,14 +44,15 @@ color : #3f3e3e;
 
 
 
-
 .navbar {
 margin-bottom : 0;
 width : 100%;
-background-color : rgb(0, 0, 0, 0.25);
+background-color : rgb(50, 50, 50);
 border : 0;
-position : absolute;
+
+position:fixed;
 }
+
 .navbar .navbar-toggler {
 border : 0;
 }
@@ -111,7 +112,7 @@ color : #ffffff;
 }
 .morning-container {
 height : 75vh;
-background : url("../images/Salata-exotica-site-370x247.jpg") center center no-repeat fixed;
+background : url("../images/Salata-exotica-site-370x247.jpg") center center no-repeat;
 background-size : cover;
 display : flex;
 align-items : center;
@@ -120,7 +121,7 @@ position : relative;
 }
 .night-container {
 height : 75vh;
-background : url("../images/caracatita-vin-site-370x247.jpg") center center no-repeat fixed;
+background : url("../images/caracatita-vin-site-370x247.jpg") center center no-repeat ;
 background-size : cover;
 display : flex;
 align-items : center;
@@ -129,7 +130,7 @@ position : relative;
 }
 .blunch-container {
 height : 75vh;
-background : url("../images/bbq.jpg") center center no-repeat fixed;
+background : url("../images/bbq.jpg") center center no-repeat ;
 background-size : cover;
 display : flex;
 align-items : center;
@@ -138,7 +139,7 @@ position : relative;
 }
 .menu-container {
 height : 27vh;
-background : url("../images/Burger 3.JPG") center center no-repeat fixed;
+background : url("../images/Burger 3.JPG") center center no-repeat;
 background-size : cover;
 display : flex;
 align-items : center;
@@ -147,7 +148,7 @@ position : relative;
 }
 .about-container {
 height : 75vh;
-background : url("../images/about.jpg") center center no-repeat fixed;
+background : url("../images/about.jpg") center center no-repeat ;
 background-size : cover;
 display : flex;
 align-items : center;
@@ -156,7 +157,7 @@ position : relative;
 }
 .takeaway-container {
 height : 75vh;
-background : url("../images/takeaway.jpg") center center no-repeat fixed;
+background : url("../images/takeaway.jpg") center center no-repeat;
 background-size : cover;
 display : flex;
 align-items : center;
@@ -165,7 +166,7 @@ position : relative;
 }
 .jumbo-container {
 height : 100vh;
-background : url("../images/home.jpg") center center no-repeat fixed;
+background : url("../images/home.jpg") center center no-repeat;
 background-size : cover;
 display : flex;
 align-items : center;
