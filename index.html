@@ -18,7 +18,7 @@
 <body>
 	<!--................Navbar and logo................-->
 
-	<nav class="navbar sticky-top navbar-dark navbar-expand-sm">
+	<nav class="navbar fixed-top navbar-dark navbar-expand-sm">
 		<a class="navbar-brand" href="index.html">
 			<h2>Blunch Bistro</h2>
 		</a>
@@ -98,44 +98,36 @@
                       <span aria-hidden="true">&times;</span>
                     </button>
 								</div>
-								<div class="modal-body">
-									<form>
-										<div class="form-group">
-											<label for="email">Email address</label>
-											<input
-                          type="email"
-                          class="form-control"
-                          id="email"
-                          placeholder="Email"
-                        />
-											<label for="booking">Booking Date</label>
+							<div class="modal-body">
+								<form>
+									<div class="form-group">
+										<label for="email">Email address</label>
+										<input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        placeholder="Email"
+                      />
+										<label for="booking">Booking Date</label>
 
-											<input
-                          type="date"
-                          class="form-control"
-                          id="booking"
-                        />
-											<label for="time">Select a time:</label>
-											<input
-                          type="time"
-                          class="form-control"
-                          id="time"
-                        />
-                      </div>
-											<div class="modal-footer">
-												<button
-                          type="button"
-                          class="btn btn-secondary"
-                          data-dismiss="modal"
-                        >
-                          Close
-                        </button>
-												<button type="submit" class="btn btn--modal">
-                          Book Now
-                        </button>
-											</div>
-									</form>
-								</div>
+										<input type="date" class="form-control" id="booking" />
+										<label for="time">Select the time:</label>
+										<input type="time" class="form-control" id="time" />
+                    </div>
+										<div class="modal-footer">
+											<button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+											<button type="submit" class="btn btn--modal">
+                        Book Now
+                      </button>
+										</div>
+								</form>
+							</div>
 							</div>
 						</div>
 					</div>
