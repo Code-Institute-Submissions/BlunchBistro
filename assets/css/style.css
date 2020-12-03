@@ -49,9 +49,9 @@ margin-bottom : 0;
 width : 100%;
 background-color : rgba(50, 50, 50,0.50);
 border : 0;
-
 position:fixed;
 }
+
 @media (max-width: 575px) {
     .navbar {
     margin-bottom : 0;
