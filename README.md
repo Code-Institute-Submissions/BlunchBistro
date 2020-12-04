@@ -21,8 +21,96 @@ We try to bring more clients into the restaurant and also to increase the revenu
 through online order, delivery and takeaway. It's easy and convenient to call, book a table,
 send an email and find the location through the navigation app.
 
+### Ideal client
+The ideal client for this business is:
+- English speaking.
+- Has disposable income.
+- Works or live in a 2 km area.
+Visitors to this website are searching for:
+- An restaurant to enjoy their lunch during office hours or maybe a refreshing dinner at home or in the restaurant.
+This project is the best way to help them achieve these things because:
+- It's convinient and easy to read the menu and to choose what to eat and also some pairing made by the chefs.
+This website is:
+- Easy to navigate.
+- ives the client the information they need without overloading them.
+- Guiding them to the goal of the website - to fill out the contact form for booking a table and to order takeaway.
+Client stories
+- As a new visitor to the website, I want to easily navigate the site, so I can find what I need efficiently.
+- As a new visitor to the website, I want view the menu and decide if i want to eat there or not.
+- As a new visitor to the website, I want learn more about the story behind the restaurant so i can find it in the about section.
+- As a potential client, I want to view expected prices  so I can decide if it is within my budget to order.
+- As an interested client, I want to understand the ordering process, so I know what steps to take next.
+- As an interested client, I want an easy to fill in contact form, so I can make contact with the restaurant and place my order.
+- As an interested observer and/or potential client, I want to follow the restaurant on social media, so I can keep up with her latest news.
+- As a returning visitor to the website, who has already decided to order from the restaurant, 
+- I want to be able to find the address of the restaurant so i can visit when it suits me.
 -----------------------------------------------------------
 
+
+## Features
+Each page features a responsive navigation bar with conventional placing of logo (top left)
+ and a highlighted "BOOK NOW" button in the middle of the page. Each page has a footer with copyright information 
+ and social media icons linking to 2 the restaurants social media pages.
+
+### Every page
+  Features its own hero image at the top, detailing a photo from the restaurant or a dish.
+  At the bottom of the page in the footer are 4 links to easily navigate through restaurant menu or recomended menu,
+   links to the address, call link and email also links to 2 social media pages.
+  The purpose of the hero image is to grab attention and give a positive emotional response to the user.
+
+### Home
+The Home page features a special hero image . The purpose of this hero image element is to give maximum impact on 
+arriving at the website.
+
+The home page promotes the chef choice for 3 tipes of menu to  engage the user and tells them that the restaurant is 
+making their life easier by promoting a menu chosen by the chef.
+
+
+Finally there is a simple call to action button guiding the user to book a table-.
+
+### About
+The About page features info on the concept of the restaurant and the tipe of cusine .
+
+
+
+### Menu
+
+The menu page features two tables, which list dish names and prices. The tables are displayed next to each other on desktop and tablet, and stacked on top of each other for mobiles.
+
+On the navbar of the menu page a shopping cart with a changing total value show's the visitor the value of the 
+order and when clicked will lead to order placement. 
+
+### How to Order
+To order,  the visitor must check the shopping cart , adjust the quantity or remove items and click the purchase button .
+
+
+
+### Existing Features
+#### Header Logo 
+ - Exists on every page and allows all users to easily recognise the business brand.
+ Clicking the logo returns users to the home page as they would expect.
+#### Header Navigation Bar 
+- Exists on every page and allows all users to easily navigate all the website's pages and find what they are looking for quickly.
+#### Footer Copyright Info 
+- Exists on every page and protects business copyright.
+#### Footer Social Icons 
+- Exist on every page and allows all users to access the social platforms that the artist uses.
+#### Call to Action Buttons 
+- Exist on every page and guide potential clients through the process of booking a table.
+#### About Page 
+- Allows potential clients to learn more about the restaurant without overloading them with information.
+
+### Features to Implement in future
+#### GDPR compliant pop-up screen 
+- Allows all new visitors to the website to approve or deny the processing of their personal data. 
+Ensures the business complies with the EU data protection law. - 
+#### Add CAPTCHA to contact form 
+- Allows business to protect the contact form from spam. - 
+#### Purchase payment and address form
+ -  Purchase  button to open a new dialod for the payment and the delivery address. -
+
+
+-----------------------------------------------------------
 ## Wire Frames
 
 
